@@ -1,4 +1,5 @@
 import "./featured.scss";
+import { PlayArrow, InfoOutlined } from '@material-ui/icons'
 
 export default function Featured({type}) {
     return (
@@ -25,11 +26,11 @@ export default function Featured({type}) {
                 </div>
             )}
             <img 
-                src="/images/dark-tech-bg.jpg" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4ozF3Lb3a9TDg0B7fvdvqK8xApYgJPvHaA&usqp=CAU" 
                 alt="" 
             />
             <div className="info">
-                <img src="/images/images.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGyvl9nXXgOBfbN3-gTwoc1lLMScw1L164Q&usqp=CAU" alt="" />
                 <span className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Hic dolor veniam ducimus incidunt dolore aperiam. Molestiae sed, quo porro reprehenderit quasi dicta impedit rerum? Ullam doloremque asperiores quaerat aliquid possimus eos explicabo 
                     eum. Suscipit facere ipsa iste explicabo praesentium quibusdam!

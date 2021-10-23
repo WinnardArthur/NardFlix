@@ -1,7 +1,9 @@
 import './navbar.scss';
+import { useState } from "react"
+import { Search, Notifications, ArrowDropDown } from "@material-ui/icons"
 
 const Navbar = () => {
-    const [isScrolled, setIsScrolled] = useSate(false)
+    const [isScrolled, setIsScrolled] = useState(false)
 
     window.onscroll = () => {
         setIsScrolled(window.pageYOffset === 0 ? false : true)
@@ -12,7 +14,7 @@ const Navbar = () => {
         <div className={isScrolled ? "navbar scrolled" : "navbar"}>
             <div className="container">
                 <div className="left">
-                    <img src="/images/dark-tech-bg.jpg" alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6PMnbFhd_eA14zPg8e77vp6BshAkKkw8Vssg17ioLftD2re7rS0ifwEKlIdpdZ9MtOM&usqp=CAU" alt="" />
                     <span>Homepage</span>
                     <span>Series</span>
                     <span>Movies</span>

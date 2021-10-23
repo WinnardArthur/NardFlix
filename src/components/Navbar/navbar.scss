@@ -23,9 +23,11 @@
             align-items: center;
 
             img {
-                height: 25px;  
+                height: 40px;  
+                width: 80px;
+                margin-right: 40px;
+                object-fit: cover;
             }
-            margin-right: 40px;
 
             span { 
                 margin-right: 20px;
